@@ -1,0 +1,9 @@
+com\mycompany\uttecinterchange\resources\JakartaEE10Resource.class
+com\mycompany\uttecinterchange\JakartaRestConfiguration.class
+com\mycompany\ravalsystems\resources\JakartaEE10Resource.class
+gestionBD\Pojoconvocatoria.class
+gestionBD\Daoregistrop.class
+gestionBD\conexionRPLA.class
+com\mycompany\ravalsystems\JakartaRestConfiguration.class
+gestionBD\Pojoregistrop.class
+gestionBD\Daoconvocatoria.class

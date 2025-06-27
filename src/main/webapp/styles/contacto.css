@@ -1,0 +1,66 @@
+/* Estilos para el contenedor del contacto */
+.contacto-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(226, 214, 214, 0.1);
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 {
+    font-family: "Bangers", system-ui;
+    font-style: normal;
+    font-size: 3rem;
+    color: #004080;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+}
+
+/* Estilos para la información del profesor */
+.profesor-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.profesor-imagen img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #004080;
+}
+
+.profesor-datos {
+    flex: 1;
+
+    font-weight: bold;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.profesor-datos p {
+    margin-bottom: 15px;
+    color: #333;
+
+}
+
+.profesor-datos strong {
+    color: #008060;
+}
+
+.profesor-datos a {
+    color: #004080;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.profesor-datos a:hover {
+    color: #008060;
+}
+

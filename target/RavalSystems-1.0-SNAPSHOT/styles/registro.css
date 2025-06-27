@@ -1,0 +1,68 @@
+/* Estilos para el contenedor del login */
+.login-container {
+    max-width: 600px;
+    margin: 160px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    font-size: 2.6rem;
+    color: #004080;
+}
+
+/* Formulario */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-form label {
+    font-weight: bold;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+
+.login-form input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Enlace */
+.link {
+    font-family: "Didact Gothic", sans-serif;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Botón */
+button {
+    background: #008060;
+    color: white;
+    padding: 10px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #004080;
+}
